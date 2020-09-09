@@ -1,6 +1,6 @@
 var x = setInterval(birthday_timer, 1000)
 function birthday_timer(){
-    var future = new Date(2020, 4, 29, 13, 58 ,20).getTime()
+    var future = new Date(2020, 12, 29, 13, 58 ,20).getTime()
     var present = new Date().getTime()
     var diff = future - present
     var days = Math.floor(diff/(24*3600*1000))
